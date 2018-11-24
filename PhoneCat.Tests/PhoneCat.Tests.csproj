@@ -104,9 +104,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
+    <Content Include="app.test.js" />
+    <Content Include="conf.js" />
+    <Content Include="e2e-tests\scenarios.js" />
+    <Content Include="karma.conf.js" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="package.json" />
     <None Include="packages.config" />
+    <Content Include="phone-detail\phone-detail.component.test.js" />
+    <Content Include="phone-list\phone-list.component.test.js" />
+    <Content Include="runkarma.txt" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PhoneCat\PhoneCat.csproj">
